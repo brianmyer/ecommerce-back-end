@@ -26,7 +26,6 @@ Product.init(
       allowNull: false,
       validate: {
         isDecimal: true,
-        // include notNull?
       }
     },
     stock: {
