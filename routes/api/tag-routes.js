@@ -65,7 +65,6 @@ router.put('/:id', async (req, res) => {
 
 router.delete('/:id', (req, res) => {
   // delete on tag by its `id` value
-    // TODO: fix this, error 23000
   Tag.destroy({
     where: {
       id: req.params.id,
